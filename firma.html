@@ -1,10 +1,11 @@
 <html>
+    <!--Firma HTML para correo institucional del Congreso de la Ciudad de México. Copyright © 2019, Rodrigo Ernesto Alvarez Aguilera | incognia@gmail.com-->
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Muli|Questrial" rel="stylesheet">
     <style>
         body {
             color: #5E6959;
-            font-family: 'Muli', sans-serif;
-            font-size: small;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
         }
         a {
             color: #5E6959;
@@ -13,31 +14,66 @@
         a:hover {
             color: #722B37;
         }
+        hr {
+            background-color: #B4872C;
+            border: 0;
+            height: 1px;
+            margin-left: 0;
+            width: 600px;
+        }
         span {
             color: #B4872C;
+        }
+        table {
+            font-family: 'Muli', sans-serif;
+            font-size: small;
+            width: 600px;
         }
         .nombre {
             color: #B4872C;
             font-family: 'Questrial', sans-serif;
-            font-size: 150%;
+            font-size: 175%;
         }
         .cargo {
             font-family: 'Didact+Gothic', sans-serif;
-            font-size: small;
+        }
+       .identidad {
+           border-right: 2px solid #B4872C;
+           border-right-style: dotted;
+           text-align: center;
+           width: 200px;
+        }
+        .foto {
+            border-radius: 50px;
+            margin: 8px;
+        }
+        .datos {
+            padding-left: 8px;
+        }
+        .banner {
+            width: 600px;
+        }
+        .aviso {
+            background: #722B37;
+            border-top: 8px solid #5E6959;
+            color: #fff;
+            font-family: 'Muli', sans-serif;
+            font-size: 9px;
+            text-align: justify;
+            padding: 8px 32px 8px 32px;
+            width: 536px;        
         }
     </style>
     <body>
         <hr>
         <table>
             <tr>
-                <td style="width: 200">
-                    <div style="text-align: center">
-                        <p><img src="https://secure.gravatar.com/avatar/e51a2b0e2b142d574963de682099716c?size=100" style="border-radius: 50px;"></p>
-                        <div class="nombre">Rodrigo Álvarez</div>
-                        <div class="cargo">Subdirector de Integración de Sistemas</div>
-                    </div>
+                <td class="identidad">
+                    <img src="https://secure.gravatar.com/avatar/e51a2b0e2b142d574963de682099716c?size=100" alt="Foto Usuario" class="foto">
+                    <div class="nombre">Rodrigo Álvarez</div>
+                    <div class="cargo">Subdirector de Integración de Sistemas</div>
                 </td>
-                <td style="font-size: small">
+                <td class="datos">
                     <span>Tel: </span>+52 (55) 5130 1980 <span>Ext: </span>3250<br>
                     <span>Cel: </span><a href="https://wa.me/525545163631" target="_blank">+52 (55) 4516 3631</a><br>
                     <span>Correo: </span><a href="mailto:rodrigo.alvarez@congresociudaddemexico.gob.mx">rodrigo.alvarez@congresociudaddemexico.gob.mx</a><br>
@@ -53,7 +89,8 @@
             </tr>
         </table>
         <hr>
-        <p style="font-size: smaller">Este correo electrónico contiene información legal confidencial y privilegiada. Si Usted no es el destinatario a quien se desea enviar este mensaje, tendrá prohibido darlo a conocer a persona alguna, así como a reproducirlo o copiarlo. Si recibe este mensaje por error, favor de notificarlo al remitente de inmediato y desecharlo de su sistema.
-        </p>
+        <a href="https://congresociudaddemexico.gob.mx" target="_blank"><img src="http://www.aldf.gob.mx/media/general/congreso.jpg" alt="Banner Congreso" class="banner"></a>
+        <div class="aviso">Este correo electrónico contiene información legal confidencial y privilegiada. Si Usted no es el destinatario a quien se desea enviar este mensaje, tendrá prohibido darlo a conocer a persona alguna, así como a reproducirlo o copiarlo. Si recibe este mensaje por error, favor de notificarlo al remitente de inmediato y desecharlo de su sistema.
+        </div>
     </body>
 </html>
